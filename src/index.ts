@@ -18,7 +18,7 @@ app.post("/sum", (req, res) => {
     });
   }
 
-  const answer = parsedResponse.data.a + parsedResponse.data.a;
+  const answer = parsedResponse.data.a + parsedResponse.data.a;    
 
   res.json({
     answer,
