@@ -19,8 +19,7 @@ app.post("/sum", (req, res) => {
   }
 
   const answer = parsedResponse.data.a + parsedResponse.data.b;
-  console.log("Addedd consolegit");
-  console.log("Addedd consolegit 2");
+  
   res.json({
     answer,
   });
